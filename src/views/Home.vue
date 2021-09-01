@@ -3,7 +3,7 @@
  * @Autor: zhangzhanhua
  * @Date: 2021-07-06 09:53:29
  * @LastEditors: zhangzhanhua
- * @LastEditTime: 2021-07-08 14:26:33
+ * @LastEditTime: 2021-09-01 13:42:08
 -->
 <template>
     <div class="home">
@@ -11,7 +11,7 @@
         <div v-for="(item,index) in forList" :key="index"> {{item}}-{{count}}</div>
         <button @click="add(count)">jiaaaa</button>
         <button @click="push(count)">push</button>
-        <button @click="downLoad">下载</button>
+        <button @click="downLoad">下载1111111111111111111111</button>
     </div>
 </template>
 

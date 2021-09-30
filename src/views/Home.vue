@@ -3,7 +3,7 @@
  * @Autor: zhangzhanhua
  * @Date: 2021-07-06 09:53:29
  * @LastEditors: zhangzhanhua
- * @LastEditTime: 2021-09-01 13:42:08
+ * @LastEditTime: 2021-09-30 09:51:11
 -->
 <template>
     <div class="home">
@@ -12,6 +12,7 @@
         <button @click="add(count)">jiaaaa</button>
         <button @click="push(count)">push</button>
         <button @click="downLoad">下载1111111111111111111111</button>
+        <button>text111</button>
     </div>
 </template>
 

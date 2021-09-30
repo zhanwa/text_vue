@@ -3,7 +3,7 @@
  * @Autor: zhangzhanhua
  * @Date: 2021-07-06 09:53:29
  * @LastEditors: zhangzhanhua
- * @LastEditTime: 2021-09-30 09:51:11
+ * @LastEditTime: 2021-09-30 09:57:36
 -->
 <template>
     <div class="home">
@@ -26,16 +26,17 @@ export default {
         })
         const forList = ref([1, 2, 3])
         const add = (n) => {
+            n++
             state.count += n
         }
         const push = (n) => {
+            n=100
             console.log(forList.value);
             forList.value = JSON.parse(JSON.stringify(forList.value.push(n)))
             console.log(forList.value);
         }
         const downLoad = () => {
-
-            window.open('http://www.zzwa.top:2021/public/sed.xlsx', '_self')
+            alert('xxxxxxxx')
         }
         watch(() => state.count, (nv, ov) => {
             console.log(nv, ov);
